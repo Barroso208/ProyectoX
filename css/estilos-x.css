@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 /*Común*/
-nav, #header{
+nav, #header, #section-1{
     
     display:flex;
     align-items: center;
@@ -43,19 +43,35 @@ nav, #header{
 }
 /*HEADER*/
 #header{
-    height: 100vh;
-    background-color: #e6e6e6;
-    flex-direction: column;
-    justify-content: center;
+    height: 50vh;
+    background-color: #505050;
+    justify-content: space-around;
 }
 .header-div1-h1{
-    font:20vw "montserrat";
+    font:15vw 'Montserrat', sans-serif;
+    background: -webkit-linear-gradient(#01ffc7, #ff0139);
+   -webkit-background-clip:text;
+   -webkit-text-fill-color: transparent;
 }
 .header-div1-h3{
-    font:8vw "raleway";
-    z-index:1;
+    font:6vw "raleway";
+}
+.change-the-world{
+    width: 40vw;
 }
 /*SECTION-1*/
 #section-1{
     height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
+.section1-div1{
+    flex:1;
+    font:15vw 'Raleway';
+    margin-top:72px;
+}
+.section1-div2{
+    flex:1;
+}
+
+
