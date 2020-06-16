@@ -50,7 +50,7 @@ nav, #header, #section-1{
 .header-div1-h1{
     font:15vw 'Montserrat', sans-serif;
     background: -webkit-linear-gradient(#01ffc7, #ff0139);
-   -webkit-background-clip:text;
+    background-clip:text;
    -webkit-text-fill-color: transparent;
 }
 .header-div1-h3{
