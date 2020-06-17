@@ -13,14 +13,14 @@
 <body>
     <nav id="nav" class="nav">
         <img class="logotipo" src="images/logotipo-aiken-bicolor.svg" alt="">
-        <ul class="links-container" id="links-container">
-            <li class="links">about</li>
-            <li class="links">projects</li>
-            <li class="links">contact</li>
-            <div id="menu" class="menu">
-                <img class="menu-svg" id="menu-svg" src="images/menu-blanco-gris.svg" alt="">
-            </div>
-        </ul>
+        <div class="links-none" id="links-container">
+            <a id="link-1" class="links" href="#section-1">Proyectos</a>
+            <a id="link-2" class="links" href="#section-2">Sobre mi</a>
+            <a id="link-3" class="links" href="#section-3">Contactar</a>
+        </div>
+        <div id="menu" class="menu">
+            <img class="menu-svg" id="menu-svg" src="images/menu-blanco-gris.svg" alt="">
+        </div>
     </nav>
     <header id="header" class="header">
         <div id="header-div1" class="header-div1">
@@ -59,10 +59,40 @@
                 </div>
             </a>
         </div>
+        <div id="section1-div2" class="section1-div2">
+            <img src="images/templates.png" alt="Madrid" class="section1-img">
+            <a class="link.proyects" href="">
+                <div class="section1-div2-div1">
+                    <h3 class="section1-h3">Partes para plantillas</h3>
+                    <h5 class="section1-h5">Partes para crear plantillas</h5>
+                    <div class="enlace-github">
+                        <h3 class="texto-enlace3">En desarrollo</h3>
+                        <img src="" alt="" class="logogithub">
+                    </div>
+                </div>
+            </a>
+        </div>
     </section>
-    <section id="section2" class="section2">
-        <div id="section2-div1" class="section2-div1"></div>
-        <div id="section2-div2" class="section2-div2"></div>
+    <section id="section-2" class="section-2">
+        <div id="section2-div1" class="section2-div1">Sobre mi</div>
+        <div id="section2-div2" class="section2-div2">
+            <img src="images/yo.jpg" alt="" class="mi-foto">
+            <h4 class="mi-nombre">Alejandro Barroso Bueso</h4>
+            <div class="descripcion">
+                <h3 class="descripcion-titulo">DESCRIPCIÓN</h3>
+                <p class="descripcion-texto">EN DESARROLLO</p>
+            </div>
+        </div>
     </section>
+    <footer id="footer">
+        <div class="contactar">
+            <h3 class="contactar-h3"></h3>
+            <div class="insta"></div>
+            <div class="github"></div>
+        </div>
+        <div class="autor"><h3 class="autor-h3">Alejandro Barroso</h3></div>
+        <div class="ultima-fecha-de-modificacion"><h3 id="last"></h3></div>
+    </footer>
+    <script src="scripts/script-1-menu.js"></script>
 </body>
 </html>
