@@ -108,7 +108,7 @@ nav, #header,#section1-div2{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: calc(100vw/3);
+    height: calc(100vw/3.5);
     cursor: pointer;
     color:#fff;
 }
@@ -121,12 +121,14 @@ nav, #header,#section1-div2{
     line-height: 22px;
 }
 .enlace-github{
-display: flex;
-align-items: center;
-justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .texto-enlace{
     font:16px "raleway";
+    color:#fff;
+    text-decoration: underline;
 }
 .texto-enlace3{
     font:16px "raleway";
@@ -164,4 +166,47 @@ justify-content: space-around;
     text-align: center;
     font:20px 'raleway';
     background-color: rgb(251, 255, 0);
+}
+/*FOOTER*/
+#footer{
+    height: 50vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #505050;
+}
+.contactar{
+    height:25vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contactar-h3{
+    color:#fff;
+    font: 30px "raleway";
+}
+.redes-sociales{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.insta, .github{
+    color:#fff;
+    text-decoration: underline;
+    font:20px "lato";
+    font-weight: bold;
+}
+.autor-h3 {
+    color:#fff;
+    font:20px "montserrat";
+}
+.autor-span{
+    font-weight:bold;
+}
+#last{
+    font:15px "lato";
+    color:#e6e6e6;
 }

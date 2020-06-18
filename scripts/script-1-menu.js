@@ -14,3 +14,5 @@ iconoMenu.onclick = function(){menu();}
 linkp.onclick = function(){menu();}
 links.onclick = function(){menu();}
 linkt.onclick = function(){menu();}
+
+document.getElementById("last").textContent = "Ultima modificación: " + document.lastModified;
