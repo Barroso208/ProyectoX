@@ -111,8 +111,9 @@ nav, #header,#section1-div2{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: calc(100vw/3.5);
+    height: calc(100vw/3.7);
     max-height: 150px;
+    min-height:79px ;
     cursor: pointer;
     color:#fff;
 }
@@ -125,6 +126,7 @@ nav, #header,#section1-div2{
     line-height: 22px;
 }
 .enlace-github{
+    height:11vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -204,6 +206,10 @@ nav, #header,#section1-div2{
     font:20px "lato";
     font-weight: bold;
 }
+.logo{
+    width: 17vw;
+}
+
 .autor-h3 {
     color:#fff;
     font:20px "montserrat";
