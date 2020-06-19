@@ -92,12 +92,15 @@ nav, #header,#section1-div2{
 .section1-div2{
     background-color: #ff0139;
     margin:32px auto 0 auto;
+    max-width: 500px;
+    max-height: 580px;
     width: 91.28vw;
     height: 100vw;
     flex-direction: column;
     border-radius: 20px;
 }
 .section1-img{
+    max-width: 500px;
     width: 91.2568306vw;
     border-radius:19px 19px 0 0 ;
 }
@@ -109,6 +112,7 @@ nav, #header,#section1-div2{
     align-items: center;
     justify-content: space-around;
     height: calc(100vw/3.5);
+    max-height: 150px;
     cursor: pointer;
     color:#fff;
 }
@@ -147,6 +151,7 @@ nav, #header,#section1-div2{
 }
 .mi-foto{
     margin:32px 0 16px 0;
+    max-width: 350px;
     width: 50vw;
     border-radius: 25vw;
 }
