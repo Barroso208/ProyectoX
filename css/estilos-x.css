@@ -111,7 +111,7 @@ nav, #header,#section1-div2{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: calc(100vw/3.7);
+    height: calc(100vw/4);
     max-height: 150px;
     min-height:79px ;
     cursor: pointer;
@@ -126,10 +126,16 @@ nav, #header,#section1-div2{
     line-height: 22px;
 }
 .enlace-github{
-    height:11vw;
+    height:15vw;
+    width: 40vw;
+    max-width: 270px;
+    max-height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.logogithub{
+    width: 7vw;
 }
 .texto-enlace{
     font:16px "raleway";
@@ -192,7 +198,7 @@ nav, #header,#section1-div2{
 }
 .contactar-h3{
     color:#fff;
-    font: 30px "raleway";
+    font: 35px "raleway";
 }
 .redes-sociales{
     width: 80vw;
