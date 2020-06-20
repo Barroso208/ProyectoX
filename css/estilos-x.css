@@ -59,7 +59,7 @@ nav, #header,#section1-div2{
     margin:0 16px;
 }
 .menu-svg{
-    width: 6vh;
+    width: 5vh;
 }
 /*HEADER*/
 #header{
@@ -69,12 +69,13 @@ nav, #header,#section1-div2{
 }
 .header-div1-h1{
     font:17vw 'Montserrat', sans-serif;
+    font-weight: 500;
     background: -webkit-linear-gradient(#01ffc7, #ff0139);
    -webkit-background-clip:text;
    -webkit-text-fill-color: transparent;
 }
 .header-div1-h3{
-    font:6vw "raleway";
+    font:7vw "raleway";
 }
 .change-the-world{
     width: 40vw;
