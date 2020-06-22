@@ -139,9 +139,10 @@ a{
     text-align: center;
 }
 .enlace-github{
-    flex:1.5;
+    flex:2;
     width: 40vw;
     max-width: 150px;
+    background-color:#ff0139;
 }
 .logogithub{
     width: 7vw;
