@@ -139,6 +139,9 @@ a{
 .enlace-github{
     flex:1;
     width: 40vw;
+    flex:2;
+    width: 40vw;
+    max-width: 150px;
 }
 .logogithub{
     width: 7vw;
@@ -255,5 +258,5 @@ a{
     }
     .section1-div1, .section2-div1{
         font-size:6em;
-        }
+    }
   }
