@@ -41,6 +41,10 @@ a{
     cursor: pointer;
     color:#fff;
 }
+.links:active{
+    background-color: #fff;
+    color:#ff0139;
+}
 .links-container{
     
     flex-direction: column;
@@ -223,3 +227,36 @@ a{
     font:15px "lato";
     color:#e6e6e6;
 }
+
+
+@media screen and (min-width: 1090px) {
+    #header{
+        height: 100vh;
+    }
+    .header-div1-h1{
+        font-size: 7em;
+    }
+    .header-div1-h3{
+        font-size:4em;
+    }
+    .menu{
+        display: none;
+    }
+    .links-none{
+        width: 60vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-right:50px;
+    }
+    .links{
+        flex:1;
+        width: auto;
+    }
+    .links:hover{
+        text-decoration: underline;
+    }
+    .section1-div1, .section2-div1{
+        font-size:6em;
+        }
+  }
