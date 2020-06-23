@@ -307,11 +307,13 @@ a{
         flex:11;
     }
     .section1-div2{
-    height: 35%;
     background-color: #505050;
     }
     .section1-div2:hover{
         background-color: #ff0139;
+    }
+    .section1-div2-div1{
+        height: 35%;
     }
     .mi-nombre{
         font-size:28px;
