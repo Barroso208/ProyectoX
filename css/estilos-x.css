@@ -148,7 +148,6 @@ a{
 }
 /* CARD */
 .section1-div2-div1{
-    height: 35%;
     padding: 16px;
     flex-direction: column;
     cursor: pointer;
@@ -308,7 +307,8 @@ a{
         flex:11;
     }
     .section1-div2{
-        background-color: #505050;
+    height: 35%;
+    background-color: #505050;
     }
     .section1-div2:hover{
         background-color: #ff0139;
