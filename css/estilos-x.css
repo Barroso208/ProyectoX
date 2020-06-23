@@ -87,6 +87,14 @@ a{
 /* SUBTITULO */
 .header-div1-h3{
     font:7vw "raleway";
+    color: #e6e6e6;
+}
+.subtitle-underline{
+    height: 5px;
+    width: 100%;
+    display: block;
+    background-image:linear-gradient(to right,#01ffc7, #ff0139);;
+    margin-top: 8px;
 }
 /* IMG CHANGE THE WORLD */
 .change-the-world{
@@ -99,10 +107,13 @@ a{
 }
 /*titulo de la seccion*/
 .section1-div1, .section2-div1{
-    font:15vw 'Raleway';
     padding-top:72px;
     text-align: center;
-}/*Proyectos*/
+}
+.section1-div1>h3, .section2-div1>h3{
+    font:15vw 'Raleway';
+}
+/*Proyectos*/
 .section1-div2{
     background-color: #ff0139;
     margin: 32px ;
@@ -172,6 +183,10 @@ a{
 }
 /*SOBRE MI*/
 #section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     height:auto;
 }
 .section2-div2{
