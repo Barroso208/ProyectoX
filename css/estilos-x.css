@@ -1,13 +1,15 @@
+/* PARA TODOS LOS ELEMENTOS */
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
 }
+/* LINKS WITHOUT UNDERLINE */
 a{
     text-decoration: none;
 }
 /*Común*/
- #header,#section1-div2, #section-1, .links-container,.section1-div2-div1, .enlace-github, .section2-div2, #footer, .contactar, .redes-sociales{
+ #header,#section1-div2, #section-1, .links-container,.section1-div2-div1, .link-github, .section2-div2, #footer, .contactar, .redes-sociales{
     
     display:flex;
     align-items: center;
@@ -25,12 +27,13 @@ a{
     background-color: #505050;
     justify-content: space-between;
 }
+/* LOGOTIPO NAV */
 .logotipo{
     width: 9vh;
     padding:0 8px;
     margin:0 16px;
 }
-
+/* LINKS NAV */
 .links{
     width: 100vw;
     text-align: center;
@@ -41,6 +44,7 @@ a{
     cursor: pointer;
     color:#fff;
 }
+
 .links:active{
     background-color: #fff;
     color:#ff0139;
@@ -55,6 +59,7 @@ a{
     width: 100vw;
     background-color: #505050;
 }
+/* FOR MOBILE */
 .links-none{
     display:none;
 }
@@ -71,6 +76,7 @@ a{
     height: 50vh;
     background-color: #505050;
 }
+/* TITULO(AIKEN) */
 .header-div1-h1{
     font:17vw 'Montserrat', sans-serif;
     font-weight: 500;
@@ -78,9 +84,11 @@ a{
    -webkit-background-clip:text;
    -webkit-text-fill-color: transparent;
 }
+/* SUBTITULO */
 .header-div1-h3{
     font:7vw "raleway";
 }
+/* IMG CHANGE THE WORLD */
 .change-the-world{
     width: 40vw;
 }
@@ -105,7 +113,8 @@ a{
     flex-direction: column;
     border-radius: 20px;
 }
-.section1-enlace{
+/* CARD LINK */
+.section1-link{
     flex:7;
     flex-direction: column;
     display:flex;
@@ -115,28 +124,30 @@ a{
     width: 91.28vw;
     height: 100vw;
 }
+/* CARD IMG */
 .section1-img{
     width: inherit;
     max-width: inherit;
     border-radius:19px 19px 0 0 ;
 }
-
+/* CARD */
 .section1-div2-div1{
     padding: 16px;
     flex-direction: column;
     cursor: pointer;
     color:#fff;
-}
+}/* CARD TITLE */
 .section1-h3{
     font:20px "raleway";
     font-weight: bold;
 }
+/* CARD SUBTITLE */
 .section1-h5{
     font:14px "lato";
     line-height: 22px;
     text-align: center;
 }
-.enlace-github{
+.link-github{
     flex:1;
     width: 40vw;
     flex:2;
@@ -148,12 +159,13 @@ a{
     min-width: 20px;
     max-width: 35px;
 }
-.texto-enlace{
+.text-link{
     font:16px "raleway";
     color:#fff;
     text-decoration: underline;
 }
-.texto-enlace3{
+/* LINK FOR DEVELOPING CARDS */
+.text-link3{
     font:16px "raleway";
     background-color: rgb(251, 255, 0);
     color:#000;
@@ -182,7 +194,7 @@ a{
     font:25px 'raleway';
     text-align: center;
 }
-.descripcion-texto{
+.descripcion-text{
     padding:64px;
     text-align: center;
     font:20px 'raleway';
@@ -223,6 +235,7 @@ a{
 .autor-span{
     font-weight:bold;
 }
+/* LAST MODIFICATED */
 #last{
     font:15px "lato";
     color:#e6e6e6;
@@ -258,5 +271,11 @@ a{
     }
     .section1-div1, .section2-div1{
         font-size:6em;
+    }
+    .section1-div2{
+        background-color: #505050;
+    }
+    .section1-div2:hover{
+        background-color: #ff0139;
     }
   }
