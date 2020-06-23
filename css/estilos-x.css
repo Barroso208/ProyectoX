@@ -96,6 +96,11 @@ a{
     background-image:linear-gradient(to right,#01ffc7, #ff0139);;
     margin-top: 8px;
 }
+.especial{
+    border-radius: 3px;
+    margin-top: 4px;
+    height: 3px;
+}
 /* IMG CHANGE THE WORLD */
 .change-the-world{
     width: 40vw;
@@ -261,6 +266,9 @@ a{
 
 
 @media screen and (min-width: 1090px) {
+    .logotipo{
+        width: 11vh;
+    }
     #header{
         height: 100vh;
     }
@@ -293,6 +301,9 @@ a{
     .section1-div1{
         height: 70vh;
     }
+    .margin-card1{
+        margin-top: 64px;
+    }
     .section1-link{
         flex:11;
     }
@@ -304,5 +315,9 @@ a{
     }
     .mi-nombre{
         font-size:28px;
+    }
+    .contactar-h3{
+        padding:32px;
+        font-size: 4em;
     }
   }
