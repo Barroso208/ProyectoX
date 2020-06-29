@@ -262,7 +262,7 @@ a{
     font:15px "lato";
     color:#e6e6e6;
 }
-
+/* ANIMACIONES */
 
 @media screen and (min-width: 1090px) {
     .logotipo{
@@ -311,6 +311,7 @@ a{
     }
     .section1-div2:hover{
         background-color: #ff0139;
+        box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .section1-div2-div1{
         height: 35%;
