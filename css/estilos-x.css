@@ -178,7 +178,8 @@ a{
     flex-direction: column;
     cursor: pointer;
     color:#fff;
-}/* CARD TITLE */
+}
+/* CARD TITLE */
 .section1-h3{
     font:20px "raleway";
     font-weight: bold;
@@ -189,6 +190,7 @@ a{
     line-height: 22px;
     text-align: center;
 }
+/* ENLACE A GITHUB */
 .link-github{
     flex:1;
     width: 40vw;
@@ -196,15 +198,17 @@ a{
     width: 40vw;
     max-width: 150px;
 }
-.logogithub{
-    width: 7vw;
-    min-width: 20px;
-    max-width: 35px;
-}
+/* ENLACE */
 .text-link{
     font:16px "raleway";
     color:#fff;
     text-decoration: underline;
+}
+/* LOGOTIPO */
+.logogithub{
+    width: 7vw;
+    min-width: 20px;
+    max-width: 35px;
 }
 /* LINK FOR DEVELOPING CARDS */
 .text-link3{
@@ -220,28 +224,34 @@ a{
     justify-content: space-around;
     height:auto;
 }
+/* M FOTO Y MI NOMBRE */
 .section2-div2{
     flex-direction: column;
     padding-top:64px ;
 }
+/* MI FOTO */
 .mi-foto{
     margin:32px 0 16px 0;
     max-width: 250px;
     width: 50vw;
     border-radius: 25vw;
 }
+/* MI NOMBRE */
 .mi-nombre{
     font:20px "raleway";
     font-weight: bold;
 }
+/* DESCRIBCIÓN */
 .descripcion{
     width: 80vw;
     margin:32px 16px;
 }
+/* TITULO DE LA DESCRIPCIÓN */
 .descripcion-titulo{
     font:25px 'raleway';
     text-align: center;
 }
+/* TEXTO DE LA DESCRIPCIÓN */
 .descripcion-text{
     padding:64px;
     text-align: center;
@@ -254,14 +264,17 @@ a{
     flex-direction:column;
     background-color: #505050;
 }
+/* PARTE DE CONTACTAR */
 .contactar{
     height:25vh;
     flex-direction: column;
 }
+/* TITULO CONTACTAR */
 .contactar-h3{
     color:#fff;
     font: 35px "raleway";
 }
+/* LOGOS DE LAS REDES SOCIALES */
 .redes-sociales{
     width: 80vw;
 }
