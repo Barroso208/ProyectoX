@@ -35,9 +35,6 @@ a{
     width: 9vh;
     padding:0 8px;
     margin:0 16px;
-    position: relative;
-    animation-duration: 2s;
-    animation-name: titulo;
 }
 /* LINKS NAV */
 .links{
@@ -85,7 +82,7 @@ a{
 /* TITULO(AIKEN) */
 .header-div1-h1{
     font:17vw 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     background: 
     -webkit-linear-gradient(#01ffc7, #ff0139);
     -webkit-background-clip:text;
