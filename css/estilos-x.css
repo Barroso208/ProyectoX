@@ -9,7 +9,10 @@ a{
     text-decoration: none;
 }
 /*Común*/
- #header,#section1-div2, #section-1, .links-container,.section1-div2-div1, .link-github, .section2-div2, #footer, .contactar, .redes-sociales{
+ #header,#section1-div2, #section-1,
+  .links-container,.section1-div2-div1,
+   .link-github, .section2-div2, #footer,
+    .contactar, .redes-sociales{
     
     display:flex;
     align-items: center;
@@ -80,14 +83,33 @@ a{
 .header-div1-h1{
     font:17vw 'Montserrat', sans-serif;
     font-weight: 500;
-    background: -webkit-linear-gradient(#01ffc7, #ff0139);
-   -webkit-background-clip:text;
-   -webkit-text-fill-color: transparent;
+    background: 
+    -webkit-linear-gradient(#01ffc7, #ff0139);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.header-div1-h1{
+    position: relative;
+    animation-duration: 2s;
+    animation-name: titulo;
+}
+@keyframes titulo{
+    0%{right:400px;}
+    100%{right:0px;}
 }
 /* SUBTITULO */
 .header-div1-h3{
     font:7vw "raleway";
     color: #e6e6e6;
+}
+.header-div1-h1{
+    position: relative;
+    animation-duration: 2s;
+    animation-name: subtitulo;
+}
+@keyframes subtitulo{
+    0%{left:400px;}
+    100%{left:0px;}
 }
 .subtitle-underline{
     height: 5px;
@@ -104,6 +126,14 @@ a{
 /* IMG CHANGE THE WORLD */
 .change-the-world{
     width: 40vw;
+}
+.change-the-world{
+    animation-name: giro;
+    animation-duration: 2s;
+}
+@keyframes giro{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
 }
 /*SECTION-1*/
 #section-1{
