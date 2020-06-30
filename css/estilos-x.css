@@ -35,6 +35,9 @@ a{
     width: 9vh;
     padding:0 8px;
     margin:0 16px;
+    position: relative;
+    animation-duration: 2s;
+    animation-name: titulo;
 }
 /* LINKS NAV */
 .links{
@@ -53,7 +56,7 @@ a{
     color:#ff0139;
 }
 .links-container{
-    
+    z-index: 10;
     flex-direction: column;
     position: absolute;
     top:10vh;
@@ -87,28 +90,24 @@ a{
     -webkit-linear-gradient(#01ffc7, #ff0139);
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
-}
-.header-div1-h1{
     position: relative;
     animation-duration: 2s;
     animation-name: titulo;
 }
 @keyframes titulo{
-    0%{right:400px;}
+    0%{right:300px;}
     100%{right:0px;}
 }
 /* SUBTITULO */
 .header-div1-h3{
     font:7vw "raleway";
     color: #e6e6e6;
-}
-.header-div1-h1{
     position: relative;
     animation-duration: 2s;
     animation-name: subtitulo;
 }
 @keyframes subtitulo{
-    0%{left:400px;}
+    0%{left:300px;}
     100%{left:0px;}
 }
 .subtitle-underline{
