@@ -66,13 +66,27 @@ a{
 .links-none{
     display:none;
 }
-.menu{
+.menu {
+    display: flex;
+    margin-right: 30px;
+    width: auto;
+    height: 23px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     cursor: pointer;
-    padding: 0 8px;
-    margin:0 16px;
 }
-.menu-svg{
-    width: 5vh;
+.menu-1, .menu-2, .menu-3{
+    display: block;
+    background-color: #fff;
+    height: 2px;
+    width: 16px;
+}
+.menu-1{
+    width: 23px;
+}
+.menu-3{
+    width: 23px;
 }
 /*HEADER*/
 #header{
@@ -122,8 +136,6 @@ a{
 /* IMG CHANGE THE WORLD */
 .change-the-world{
     width: 40vw;
-}
-.change-the-world{
     animation-name: giro;
     animation-duration: 2s;
 }
