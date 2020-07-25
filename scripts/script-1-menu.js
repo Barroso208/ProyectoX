@@ -1,10 +1,7 @@
-let iconoMenu = document.getElementById('menu');
-let linksContainer = document.getElementById("links-container");
-let linkp = document.getElementById("link-1");
-let links = document.getElementById("link-2");
-let linkt = document.getElementById("link-3");
-let h1    = document.getElementById("header-div1-h1");
-let h3    = document.getElementById("header-div1-h3");
+const iconoMenu = document.getElementById('menu');
+const linksContainer = document.getElementById("links-container");
+const h1    = document.getElementById("header-div1-h1");
+const h3    = document.getElementById("header-div1-h3");
 function menu(){
     if(window.screen.width<1090){
         if(linksContainer.className == "links-none"){
@@ -17,7 +14,6 @@ function menu(){
     }
 }
 function listClick(e) {
-    let target = e.target;
     menu();
 }
 iconoMenu.addEventListener('click',menu);
