@@ -16,9 +16,11 @@ function menu(){
         }
     }
 }
-iconoMenu.onclick = function(){menu();}
-linkp.onclick = function(){menu();}
-links.onclick = function(){menu();}
-linkt.onclick = function(){menu();}
+function listClick(e) {
+    let target = e.target;
+    menu();
+}
+iconoMenu.addEventListener('click',menu);
+linksContainer.addEventListener('click',listClick);
 
 document.getElementById("last").textContent = "Ultima modificación: " + document.lastModified;
