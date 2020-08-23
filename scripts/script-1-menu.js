@@ -13,10 +13,9 @@ function menu(){
         }
     }
 }
-function listClick(e) {
+$('#menu').on('click',menu);
+$('div.links-none').on('click',function(e){
     menu();
-}
-iconoMenu.addEventListener('click',menu);
-linksContainer.addEventListener('click',listClick);
+});
 
 document.getElementById("last").textContent = "Ultima modificación: " + document.lastModified;

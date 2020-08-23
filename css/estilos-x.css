@@ -314,8 +314,9 @@ a{
     font:15px "lato";
     color:#e6e6e6;
 }
-/* ANIMACIONES */
-
+.ultima-imagen{
+    height:230px;
+}
 @media screen and (min-width: 1090px) {
     .logotipo{
         width: 11vh;
