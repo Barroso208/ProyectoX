@@ -19,3 +19,15 @@ function menu(){
 $('#menu').on('click',menu);
 $('div.links-none').on('click',menu);
 document.getElementById("last").textContent = "Ultima modificación: " + document.lastModified;
+/* Ocultar y desocultar el nav :) */
+let lastScroll;
+$(window).on('scroll', function(event) {
+    let scroll = $(this).scrollTop();
+    if ( (lastScroll<scroll) && (scroll>312) && (window.screen.width<1090) ) {
+        $('#nav').css('opacity',0.0);
+    }else{
+        $('#nav').css('opacity',100);
+    }
+    lastScroll=scroll;
+});
+
