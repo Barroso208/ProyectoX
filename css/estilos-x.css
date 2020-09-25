@@ -4,14 +4,17 @@
     margin:0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* LINKS WITHOUT UNDERLINE */
 a{
     text-decoration: none;
 }
 /*Común*/
- #header,#section1-div2, #section-1,
-  .links-container,.section1-div2-div1,
-   .link-github, .section2-div2, #footer,
+#header,#section1-div2, #section-1,
+.links-container,.section1-div2-div1,
+.link-github, .section2-div2, #footer,
     .contactar, .redes-sociales{
     
     display:flex;
