@@ -99,6 +99,7 @@ a{
 #header{
     height: 50vh;
     background-color: #505050;
+    overflow-x: hidden;
 }
 /* TITULO(AIKEN) */
 .header-div1-h1{
@@ -108,11 +109,23 @@ a{
     -webkit-linear-gradient(#01ffc7, #ff0139);
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
+    position: relative;
+    animation: titulo 4s;
+}
+@keyframes titulo{
+    0%{right: 200px;}
+    100%{right:0px;}
 }
 /* SUBTITULO */
 .header-div1-h3{
     font:7vw "raleway";
     color: #e6e6e6;
+    position: relative;
+    animation: subtitulo 4s;
+}
+@keyframes subtitulo{
+    0%{left: 400px;}
+    100%{left:0px;}
 }
 .subtitle-underline{
     height: 5px;
@@ -129,6 +142,11 @@ a{
 /* IMG CHANGE THE WORLD */
 .change-the-world{
     width: 40vw;
+    animation: mundo 4s;
+}
+@keyframes mundo{
+    0%{transform:scale(0.25) rotate(0deg);}
+    100%{transform:scale(1) rotate(360deg);}
 }
 #section-1{
     flex-wrap: wrap;
