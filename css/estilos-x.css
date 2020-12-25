@@ -108,25 +108,11 @@ a{
     -webkit-linear-gradient(#01ffc7, #ff0139);
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
-    position: relative;
-    animation-duration: 2s;
-    animation-name: titulo;
-}
-@keyframes titulo{
-    0%{right:300px;}
-    100%{right:0px;}
 }
 /* SUBTITULO */
 .header-div1-h3{
     font:7vw "raleway";
     color: #e6e6e6;
-    position: relative;
-    animation-duration: 2s;
-    animation-name: subtitulo;
-}
-@keyframes subtitulo{
-    0%{left:300px;}
-    100%{left:0px;}
 }
 .subtitle-underline{
     height: 5px;
@@ -143,14 +129,7 @@ a{
 /* IMG CHANGE THE WORLD */
 .change-the-world{
     width: 40vw;
-    animation: giro 1.5s ease-out;
 }
-@keyframes giro{
-    0%{transform: rotateZ(0deg);width: 0vw;}
-    75%{width: 40vw;}
-    100%{transform: rotateZ(360deg);}
-}
-/*SECTION-1*/
 #section-1{
     flex-wrap: wrap;
     height: auto;
