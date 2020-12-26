@@ -21,9 +21,11 @@ let lastScroll;
 $(window).on('scroll', function(event) {
     let scroll = $(this).scrollTop();
     if ( (lastScroll<scroll) && (scroll>312) && (window.screen.width<1090) ) {
-        $('#nav').css('display','none');
+        $('#nav').css({'animation':'0.5s navb'});
+        setTimeout(function(){$('#nav').css({'display':'none'});},500)
     }else{
-        $('#nav').css('display','flex');
+        $('#nav').css({'display':'flex','animation':'0.5s nav '});
+
     }
     lastScroll=scroll;
 });
