@@ -78,6 +78,7 @@ a{
     margin-right: 30px;
     width: auto;
     height: 23px;
+    max-height: 23px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -387,6 +388,11 @@ a{
     0%{height:0}
     100%{height: 10vh;}
 }
+@keyframes logotipo{
+    0%{height:0}
+    100%{height: 10vh;}
+}
+
 @keyframes navb{
     0%{height:10vh;}
     100%{height:0;}

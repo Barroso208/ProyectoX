@@ -21,14 +21,16 @@ let lastScroll;
 $(window).on('scroll', function(event) {
     let scroll = $(this).scrollTop();
     if ( (lastScroll<scroll) && (scroll>312) && (window.screen.width<1090) ) {
-        $('#nav').css({'animation':'0.5s navb'});
-        setTimeout(function(){$('#nav').css({'display':'none'});},500)
+        $('#nav').css({'animation':'0.35s navb'});
+        $('.logotipo').css({'display':'none'})
+        $('.menu').css({'display':'none'})
+        setTimeout(function(){$('#nav').css({'display':'none'});},300)
     }else{
-        $('#nav').css({'display':'flex','animation':'0.5s nav '});
-
+        $('#nav').css({'display':'flex','animation':'0.35s nav '});
+        $('.logotipo').css({'animation':'0.4s logotipo','display':'block'})
+        $('.menu').css({'animation':'0.4s logotipo','display':'flex'})
     }
     lastScroll=scroll;
 });
-
 
 
